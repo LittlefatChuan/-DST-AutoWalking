@@ -1,0 +1,1 @@
+tweak_avoid_obstacles : PrefabPostInit给碰撞半径> .5的 "blocker"标签实体和一些卡位的物体加上ngl_pfwalls_clientonly组件
