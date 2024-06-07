@@ -1,0 +1,5 @@
+custom_bypass_prefab_defs: 
+	自定义需要避开物体
+pathfinding_bypass :
+	PrefabPostInit给碰撞半径> .5的 "blocker"标签实体和一些卡位的物体加上ngl_obstaclepfwalls组件，来添加与碰撞体积相关的寻路墙
+	并给custom_bypass_prefab_defs 中的prefab加上ngl_custompfwalls组件，自定义寻路墙的半径
